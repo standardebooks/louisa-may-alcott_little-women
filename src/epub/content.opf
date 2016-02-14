@@ -17,48 +17,51 @@
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">Little Women</dc:title>
-		<meta property="file-as" refines="#title">SORT</meta>
-		<dc:subject id="subject-1">SUBJECT1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT2</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">LOCLINK1</meta>
-		<meta property="meta-auth" refines="#subject-2">LOCLINK2</meta>
+		<meta property="file-as" refines="#title">Little Women</meta>
+		<dc:subject id="subject-1">New England -- Fiction</dc:subject>
+		<dc:subject id="subject-2">March family (Fictitious characters) -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Sisters -- Fiction</dc:subject>
+		<dc:subject id="subject-4">Family life -- New England -- Fiction</dc:subject>
+		<dc:subject id="subject-5">Mothers and daughters -- Fiction</dc:subject>
+		<dc:subject id="subject-6">Young women -- Fiction</dc:subject>
+		<dc:subject id="subject-7">Domestic fiction</dc:subject>
+		<dc:subject id="subject-8">Autobiographical fiction</dc:subject>
+		<dc:subject id="subject-9">Bildungsromans</dc:subject>
+		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/37106</meta>
+		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/37106</meta>
+		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/37106</meta>
+		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/37106</meta>
+		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/37106</meta>
+		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/37106</meta>
+		<meta property="meta-auth" refines="#subject-7">https://www.gutenberg.org/ebooks/37106</meta>
+		<meta property="meta-auth" refines="#subject-8">https://www.gutenberg.org/ebooks/37106</meta>
+		<meta property="meta-auth" refines="#subject-9">https://www.gutenberg.org/ebooks/37106</meta>
 		<meta property="se:subject">TAG</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
+		<meta id="long-description" property="se:long-description" refines="#description">
 			LONGDESCRIPTION
-		]]></meta>
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>LINK</dc:source>
+		<dc:language>en-US</dc:language>
+		<dc:source>https://www.gutenberg.org/ebooks/37106</dc:source>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">WIKILINK</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Little_Women</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/louisa-may-alcott_little-women</meta>
 		<dc:creator id="author">Louisa May Alcott</dc:creator>
-		<meta property="file-as" refines="#author">SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">FULLNAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">WIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">NACOAFLINK</meta>
+		<meta property="file-as" refines="#author">Alcott, Louisa May</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Louisa_May_Alcott</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79117152.html</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="translator">CONTRIB1</dc:contributor>
-		<meta property="file-as" refines="#translator">CONTRIB1SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">WIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">NACOAFLINK</meta>
-		<meta property="display-seq" refines="#translator">1</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">COVERARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">WIKILINK</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">NACOAFLINK</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">LINK</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
