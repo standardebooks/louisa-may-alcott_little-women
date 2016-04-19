@@ -46,7 +46,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/37106</dc:source>
 		<dc:source>https://archive.org/details/LittleWomen_201303</dc:source>
-		<meta property="se:word-count">190922</meta>
+		<meta property="se:word-count">190736</meta>
 		<meta property="se:reading-ease.flesch">74.83</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Little_Women</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/louisa-may-alcott_little-women</meta>
@@ -80,6 +80,9 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alina Pyzowski</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Pyzowski, Alina</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
