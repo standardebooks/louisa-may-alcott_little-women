@@ -15,6 +15,10 @@ cite{
 	margin-top: 1em;
 }
 
+span.brace{
+	font-size: 2em;
+}
+
 [epub|type~="se:letter.dateline"]{
 	text-align: right;
 }
@@ -46,7 +50,7 @@ cite{
 }
 
 p.signature,
-[epub|type] p.signature{
+blockquote p.signature{
 	text-align: right;
 	font-variant: small-caps;
 	margin-top: 1em;
@@ -96,9 +100,9 @@ p span.i1{
 	padding-left: 2em;
 }
 
-blockquote.magazine header,
-blockquote.magazine [epub|type] header p,
-[epub|type] header p{
+blockquote header,
+blockquote[epub|type~="z3998:poem"] header p,
+blockquote.magazine header{
 	font-variant: small-caps;
 	text-align: center;
 	margin-bottom: 1em;
