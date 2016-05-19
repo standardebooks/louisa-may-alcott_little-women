@@ -55,12 +55,12 @@
 		<dc:creator id="author">Louisa May Alcott</dc:creator>
 		<meta property="file-as" refines="#author">Alcott, Louisa May</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Louisa_May_Alcott</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79117152.html</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79117152</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Jessie Willcox Smith</dc:contributor>
 		<meta property="file-as" refines="#artist">Smith, Jessie Willcox</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jessie_Willcox_Smith</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80005675.html</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80005675</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Edwards</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Edwards, David</meta>
