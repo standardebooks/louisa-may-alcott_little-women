@@ -1,17 +1,8 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-abbr.name{
-	white-space: nowrap;
-}
-
 span[epub|type~="subtitle"]{
 	display: block;
-	font-weight: normal;
-}
-
-b{
-	font-variant: small-caps;
 	font-weight: normal;
 }
 
@@ -109,11 +100,13 @@ p span.i2{
 	padding-left: 3em;
 }
 
+blockquote[epub|type~="z3998:poem"] header p{
+	text-align: center;
+}
+
 blockquote header,
-blockquote[epub|type~="z3998:poem"] header p,
 blockquote.magazine header{
 	font-variant: small-caps;
-	text-align: center;
 	margin-bottom: 1em;
 }
 
