@@ -10,7 +10,7 @@ cite{
 	margin-top: 1em;
 }
 
-span.brace{
+table span{
 	font-size: 2em;
 }
 
@@ -105,20 +105,21 @@ blockquote[epub|type~="z3998:poem"] header p{
 }
 
 blockquote header,
-blockquote.magazine header{
+#chapter-10 > blockquote header{
 	font-variant: small-caps;
 	margin-bottom: 1em;
 }
 
-blockquote.magazine header p{
+#chapter-10 > blockquote header p{
 	text-indent: 0;
 }
 
-blockquote.magazine header p.title{
+#chapter-10 > blockquote header p.title{
 	font-size: 1.2em;
 }
 
-blockquote.magazine .bereavement{
+/* Bereavement */
+#chapter-10 > blockquote div:nth-of-type(6){
 	border: 1px solid;
 	padding: 1em;
 }
