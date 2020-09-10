@@ -39,18 +39,18 @@ table span{
 	text-indent: 0;
 }
 
-p[epub:type~="z3998:signature"],
-blockquote p[epub:type~="z3998:signature"]{
+p[epub|type~="z3998:signature"],
+blockquote p[epub|type~="z3998:signature"]{
 	text-align: right;
 	font-variant: small-caps;
 	margin-top: 1em;
 }
 
-p[epub:type~="z3998:signature"] + p[epub:type~="z3998:signature"]{
+p[epub|type~="z3998:signature"] + p[epub|type~="z3998:signature"]{
 	margin-top: 0;
 }
 
-span[epub:type~="z3998:signature"]{
+span[epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
 
