@@ -31,27 +31,22 @@ table span{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:letter"] footer{
+footer{
 	margin-top: 1em;
-}
-
-[epub|type~="z3998:letter"] footer p{
-	text-indent: 0;
-}
-
-p[epub|type~="z3998:signature"],
-blockquote p[epub|type~="z3998:signature"]{
 	text-align: right;
+}
+
+[epub|type~="z3998:poem"] footer p{
+	text-align: right; /* override default poem styling */
+}
+
+[epub|type~="z3998:signature"],
+blockquote p[epub|type~="z3998:signature"]{
 	font-variant: small-caps;
-	margin-top: 1em;
 }
 
 p[epub|type~="z3998:signature"] + p[epub|type~="z3998:signature"]{
 	margin-top: 0;
-}
-
-span[epub|type~="z3998:signature"]{
-	font-variant: small-caps;
 }
 
 [epub|type~="z3998:poem"] p,
