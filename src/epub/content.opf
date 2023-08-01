@@ -71,7 +71,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/37106</dc:source>
 		<dc:source>https://archive.org/details/LittleWomen_201303</dc:source>
-		<meta property="se:word-count">190768</meta>
+		<meta property="se:word-count">190769</meta>
 		<meta property="se:reading-ease.flesch">74.73</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Little_Women</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/louisa-may-alcott_little-women</meta>
