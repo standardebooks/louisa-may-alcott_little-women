@@ -99,7 +99,7 @@ blockquote header,
 }
 
 #chapter-10 > blockquote header p.title{
-	font-size: 1.2em;
+	font-size: larger;
 }
 
 /* Bereavement */
