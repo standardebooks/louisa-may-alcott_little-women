@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="chapter-15.xhtml">
 		<ignore code="t-011">
+			<line>36</line>
 			<reason>Matched text is a signature to a letter and does not require ending punctuation.</reason>
 		</ignore>
 	</file>
